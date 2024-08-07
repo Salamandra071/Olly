@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farvana Jewellery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #62021d;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #a42153;
+            color: #f9f9f9;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            padding: 10px;
+            background-color: #d583ac;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #f9f9f9;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        .about, .products, .contact {
+            margin-bottom: 40px;
+        }
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .product-item {
+            border: 1px solid #d583ac;
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+        }
+        .product-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #62021d;
+            color: #f9f9f9;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Farvana Jewellery</h1>
+        <p>Affordable Luxury Jewelry</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#products">Our Products</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <p>Welcome to Farvana Jewellery, where we bring the elegance and beauty of butterflies into every piece. Our collection of sterling silver rings combines timeless designs with affordable luxury, making sure you always feel special.</p>
+        </section>
+        <section id="products" class="products">
+            <h2>Our Products</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="ring1.jpg" alt="Sterling Silver Ring 1">
+                    <h3>Sterling Silver Ring 1</h3>
+                    <p>Elegant and timeless, this ring is perfect for any occasion.</p>
+                    <p>Price: $50</p>
+                </div>
+                <div class="product-item">
+                    <img src="ring2.jpg" alt="Sterling Silver Ring 2">
+                    <h3>Sterling Silver Ring 2</h3>
+                    <p>A beautiful piece that adds a touch of luxury to your style.</p>
+                    <p>Price: $60</p>
+                </div>
+                <div class="product-item">
+                    <img src="ring3.jpg" alt="Sterling Silver Ring 3">
+                    <h3>Sterling Silver Ring 3</h3>
+                    <p>Classic design meets modern elegance in this stunning ring.</p>
+                    <p>Price: $55</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to place an order, feel free to reach out to us.</p>
+            <p>Email: info@farvanajewellery.com</p>
+            <p>Phone: +123 456 7890</p>
+            <p>Follow us on social media:</p>
+            <p>
+                <a href="#" style="color: #a42153;">Instagram</a> |
+                <a href="#" style="color: #a42153;">Facebook</a> |
+                <a href="#" style="color: #a42153;">Twitter</a>
+            </p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Farvana Jewellery. All rights reserved.</p>
+    </footer>
+</body>
+</html>
